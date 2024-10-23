@@ -1,0 +1,15 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    text-align: center;
+    display:inline-block;
+    padding: 4px;
+}
+@media screen and (width <= 700px) {
+    button{
+        display : none;
+    }
+}
